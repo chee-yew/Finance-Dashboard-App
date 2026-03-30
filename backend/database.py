@@ -19,10 +19,6 @@ def get_db():
         yield db
     finally:
         db.close()
-```
 
----
 
-**`.env`** — paste this in (just a placeholder for now):
-```
-DATABASE_URL=postgresql+psycopg://postgres:yourpassword@localhost:5432/financeapp
+
